@@ -1,0 +1,28 @@
+{
+  "name": "css-toggle",
+  "main": "./lib/css-toggle",
+  "version": "0.1.0",
+  "description": "Easy switch your CSS code from single to multiline style.",
+  "activationCommands": {
+    "atom-workspace": [
+      "css-toggle:collapse",
+      "css-toggle:extend",
+      "css-toggle:config-collapse",
+      "css-toggle:config-extend",
+      "css-toggle:toggle"
+    ]
+  },
+  "repository": "https://github.com/shuriktm/atom-css-toggle",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "csscomb": "^3.0.4"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/shuriktm/atom-css-toggle/issues"
+  },
+  "homepage": "https://github.com/shuriktm/atom-css-toggle"
+}

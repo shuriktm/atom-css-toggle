@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    { 'label': 'Toggle CSS code', 'command': 'css-toggle:toggle' }
+    { 'label': 'Collapse CSS code', 'command': 'css-toggle:collapse' }
+    { 'label': 'Extend CSS code', 'command': 'css-toggle:extend' }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'CSS Toggle'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'css-toggle:toggle' }
+        { 'label': 'Collapse', 'command': 'css-toggle:collapse' }
+        { 'label': 'Extend', 'command': 'css-toggle:extend' }
+        { 'label': 'Configure Collapse', 'command': 'css-toggle:config-collapse' }
+        { 'label': 'Configure Extend', 'command': 'css-toggle:config-extend' }
+      ]
+    ]
+  }
+]
